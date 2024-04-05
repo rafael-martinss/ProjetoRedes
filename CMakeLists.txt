@@ -7,11 +7,13 @@ set(CMAKE_CXX_STANDARD 17)
 
 set( SOURCES
         main.c
+        mpu6050.c
         tcp.c
         thread_wrapper.c
         )
         
 set( HEADERS
+        mpu6050.h
         tcp.h
         thread_wrapper.h
 )
